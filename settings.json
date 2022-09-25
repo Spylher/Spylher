@@ -1,0 +1,57 @@
+{
+    "window.zoomLevel": 0,
+    //php
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "sync.forceUpload": true,
+    "editor.linkedEditing": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "php.executablePath": "C:/wamp64/bin/php/php8.1.0/php.exe",
+    "php.validate.executablePath": "C:/wamp64/bin/php/php8.1.0/php.exe",
+    "settingsSync.ignoredSettings": [
+        "-php.validate.executablePath"
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "cSpell.enableFiletypes": [
+        "php"
+    ],
+    "cSpell.language": "en, pt",
+    //code runner
+    "code-runner.executorMap": {
+        "python": ".\\venv\\Scripts\\python.exe"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    // Python
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.languageServer": "Pylance",
+    "python.formatting.autopep8Args": [
+        "--indent-size=4"
+        // "--ignore=E111",
+    ],
+    "python.linting.flake8Args": [
+        // "--ignore=E111",
+    ],
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.linting.mypyEnabled": true,
+    "python.defaultInterpreterPath": "python",
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "cSpell.userWords": [
+        "igraph"
+    ]
+}
